@@ -11,6 +11,7 @@ module.exports = {
         kelahiranMain: "#EDD1D2",
         excariaBg: "#E19488",
         textMain: "#7C1A1F",
+        caramenjagado: "#CAE4DF",
       },
     },
   },
