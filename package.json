@@ -4,5 +4,9 @@
   },
   "scripts": {
     "excaria": "npx tailwindcss -i ./src/input.css -o ./dist/css/output.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16"
   }
 }
