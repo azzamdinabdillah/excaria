@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Prilaku</title>
+    <link rel="stylesheet" href="../../css/output.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&display=swap" rel="stylesheet" />
+
+    <style>
+        * {
+            font-family: Sansita, 'sans-serif';
+        }
+    </style>
+
+    <!-- swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <a href="index.html" class="fixed top-5 left-5 z-10 p-3 rounded-lg bg-[#4F1F15] text-white">Home</a>
+
+    <div class="swiper mySwiper w-full h-screen bg-[#FFC6CC]">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide flex items-center justify-center px-10">
+                <div class="bg-[#FFDCE0] flex flex-col justify-center items-center rounded-xl">
+                    <img src="../img/34_20220830_103535_0001.png" alt="rambut" class="w-[60%]">
+                    <h1 class="font-bold font-sansita text-[34px] text-center tracking-wider text-[#4F1F15] mb-10">
+                        Bersikap
+                        Tenang
+                    </h1>
+                </div>
+            </div>
+            <div class="swiper-slide flex items-center justify-center px-10">
+                <div class="bg-[#FFDCE0] flex flex-col justify-center items-center rounded-xl p-5">
+                    <img src="../img/35_20220830_103535_0002.png" alt="rambut" class="w-[60%]">
+                    <h1 class="font-bold font-sansita text-2xl text-center tracking-wider text-[#4F1F15] mt-5">
+                        3 Kata Ajaib
+                        (maaf, terima kasih, tolong)
+                    </h1>
+                </div>
+            </div>
+            <div class="swiper-slide flex items-center justify-center px-10">
+                <div class="bg-[#FFDCE0] flex flex-col justify-center items-center rounded-xl">
+                    <img src="../img/36_20220830_103535_0003.png" alt="rambut" class="w-[60%]">
+                    <h1 class="font-bold font-sansita text-2xl text-center tracking-wider text-[#4F1F15] mb-10">
+                        tidak mudah percaya kepada orang asing.
+                    </h1>
+                </div>
+            </div>
+            <div class="swiper-slide flex items-center justify-center px-10">
+                <div class="bg-[#FFDCE0] flex flex-col justify-center items-center rounded-xl">
+                    <img src="../img/37_20220830_103535_0004.png" alt="rambut" class="w-[60%]">
+                    <h1 class="font-bold font-sansita text-3xl text-center tracking-wider text-[#4F1F15] mb-10">
+                        Menangis dengan kencang
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination mb-12"></div>
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+</body>
+
+</html>
